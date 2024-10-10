@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>jardi contact</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+          <body>
+            <img class="img1" src="./img/jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou">
+        <h1> Tout le jardin </h1>
+        <ul>
+                    <a href="index.html">Accueil</a>
+                    <a href="itableau.html">Tableau</a>
+                    <a href="icontact.html">Contact</a>
+        </ul>   
+  <img class="img2" src="./img/promotion.jpg"    
+alt="Jarditou" title="Jarditou">
+<div id="div2">
+  <legend>[COLONNE DROITE] &#128579</legend> 
+ </div>
+
+ <h2>Contact</h2>
+<hr>
+<p>*Ces zones sont obligatoires</p>
+<form action="/action_page.php">
+    <fieldset>
+        <legend>Vos coordonnées</legend>
+    <label for="fname">Votre nom* :</label>
+    <input type="text" id="name" name="fname"><br>
+    <label for="lname">Votre prénom* :</label>
+    <input type="text" id="lname" name="lname"><br>
+            <label for="fname"> Sexe* :</label>
+             <input type="radio" id="feminin" name="fav_language" value="Féminin">
+             <label for="fname">Féminin</label>
+            <input type="radio" id="masculin" name="fav_language" value="Masculin">
+            <label for="fname">Masculin</label><br>
+            <label for="date"> Date de naissance* :</label>
+            <input type="date" id="date" name="date"><br>
+            <label for="country_code"> Code postal* :</label>
+            <input type="text" id="country_code" name="country_code" pattern="[A-ZA-z]{3}" title="Code postal"><br>
+            <label for="adresse"> Adresse :</label>
+            <input type="text" id="adresse" name="Adresse"><br>
+            <label for="fname">Ville :</label>
+            <input type="text" id="fname" name="Ville :"><br>
+            <label for="email"> Email* :</label>
+            <input type="email" id="email" name="Email* :"><br>
+    </fieldset>
+            </form>
+            <form> 
+                <fieldset>          
+                <legend>Votre demande</legend>
+                <label for="fname">Sujet* :</label>
+                <select>
+                    <option>Veuillez séléctionner un sujet</option>
+                    <option>Mes commandes</option>
+                    <option>Question sur un produit</option>
+                    <option>Réclamation</option>
+                    <option>Autre</option>
+                </select><br><br>
+                <label for="fname">Votre question* :</label>
+                <textarea name="message" style="width: auto;"></textarea><br>
+            </fieldset><br>
+            </form>
+            <form >
+            <input type="checkbox" id="formulaire" name="formilaire" value="">
+            <label for="fname">* J'accepte le traitement infotmatique de ce formulaire</label><br><br>
+            <input type="button" value="Envoyer">
+            <input type="button" value="Annuler">
+            </form> <hr>
+            <ul>
+                    <a href="index.html">Mention légales</a>
+                    <a href="itableau.html">Horaires</a>
+                    <a href="icontact.html">Plan du site</a>
+            </ul>
+</body>
+</html>
